@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: c03461fcd96010545ac9cc08637c0b2d
+timeCreated: 1485244711
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Cone.017
+    100002: Cone.017_MeshPart0
+    100004: Cone.017_MeshPart1
+    100006: Cone.020
+    100008: Cone.020_MeshPart0
+    100010: Cone.020_MeshPart1
+    100012: Cube.003
+    100014: Cube.003_MeshPart0
+    100016: Cube.003_MeshPart1
+    100018: Cube.004
+    100020: Cube.005
+    100022: Cube.005_MeshPart0
+    100024: Cube.005_MeshPart1
+    100026: Cube.006
+    100028: Cube.006_MeshPart0
+    100030: Cube.006_MeshPart1
+    100032: Cube.007
+    100034: Cube.008
+    100036: Cube.012
+    100038: Cylinder
+    100040: //RootNode
+    100042: Plane
+    100044: Plane.001
+    400000: Cone.017
+    400002: Cone.017_MeshPart0
+    400004: Cone.017_MeshPart1
+    400006: Cone.020
+    400008: Cone.020_MeshPart0
+    400010: Cone.020_MeshPart1
+    400012: Cube.003
+    400014: Cube.003_MeshPart0
+    400016: Cube.003_MeshPart1
+    400018: Cube.004
+    400020: Cube.005
+    400022: Cube.005_MeshPart0
+    400024: Cube.005_MeshPart1
+    400026: Cube.006
+    400028: Cube.006_MeshPart0
+    400030: Cube.006_MeshPart1
+    400032: Cube.007
+    400034: Cube.008
+    400036: Cube.012
+    400038: Cylinder
+    400040: //RootNode
+    400042: Plane
+    400044: Plane.001
+    2300000: Cone.017_MeshPart0
+    2300002: Cone.017_MeshPart1
+    2300004: Cone.020_MeshPart0
+    2300006: Cone.020_MeshPart1
+    2300008: Cube.003_MeshPart0
+    2300010: Cube.003_MeshPart1
+    2300012: Cube.004
+    2300014: Cube.005_MeshPart0
+    2300016: Cube.005_MeshPart1
+    2300018: Cube.006_MeshPart0
+    2300020: Cube.006_MeshPart1
+    2300022: Cube.007
+    2300024: Cube.008
+    2300026: Cube.012
+    2300028: Cylinder
+    2300030: Plane
+    2300032: Plane.001
+    3300000: Cone.017_MeshPart0
+    3300002: Cone.017_MeshPart1
+    3300004: Cone.020_MeshPart0
+    3300006: Cone.020_MeshPart1
+    3300008: Cube.003_MeshPart0
+    3300010: Cube.003_MeshPart1
+    3300012: Cube.004
+    3300014: Cube.005_MeshPart0
+    3300016: Cube.005_MeshPart1
+    3300018: Cube.006_MeshPart0
+    3300020: Cube.006_MeshPart1
+    3300022: Cube.007
+    3300024: Cube.008
+    3300026: Cube.012
+    3300028: Cylinder
+    3300030: Plane
+    3300032: Plane.001
+    4300000: Plane.001
+    4300002: Cube.007
+    4300004: Cube.008
+    4300006: Cube.005_MeshPart0
+    4300008: Cube.005_MeshPart1
+    4300010: Cube.012
+    4300012: Cone.020_MeshPart0
+    4300014: Cone.020_MeshPart1
+    4300016: Cone.017_MeshPart0
+    4300018: Cone.017_MeshPart1
+    4300020: Plane
+    4300022: Cylinder
+    4300024: Cube.006_MeshPart0
+    4300026: Cube.006_MeshPart1
+    4300028: Cube.003_MeshPart0
+    4300030: Cube.003_MeshPart1
+    4300032: Cube.004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

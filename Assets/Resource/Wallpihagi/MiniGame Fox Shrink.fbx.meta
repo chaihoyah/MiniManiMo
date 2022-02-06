@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 6c80f60ed53aafe439a70173238e5fd7
+timeCreated: 1476366262
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm.KI.L
+    100002: Arm.KI.L_end
+    100004: Arm.KI.R
+    100006: Arm.KI.R_end
+    100008: Armature
+    100010: Body
+    100012: Bone
+    100014: Cube.000
+    100016: Ear.KI.L
+    100018: Ear.KI.L_end
+    100020: Ear.KI.R
+    100022: Ear.KI.R_end
+    100024: EarJoint.L
+    100026: EarJoint.L_end
+    100028: EarJoint.R
+    100030: EarJoint.R_end
+    100032: Elbow.L
+    100034: Elbow.L_end
+    100036: Elbow.R
+    100038: Elbow.R_end
+    100040: Foot.L
+    100042: Foot.L_end
+    100044: Foot.R
+    100046: Foot.R_end
+    100048: Fox momchae
+    100050: Head.L
+    100052: Head.L_end
+    100054: Knee.L
+    100056: Knee.L_end
+    100058: Knee.R
+    100060: Knee.R_end
+    100062: Leg.KI.L
+    100064: Leg.KI.R
+    100066: LowerArm.L
+    100068: LowerArm.R
+    100070: LowerEar.L
+    100072: LowerEar.R
+    100074: LowerLeg.L
+    100076: LowerLeg.L_end
+    100078: LowerLeg.R
+    100080: LowerLeg.R_end
+    100082: //RootNode
+    100084: UpperArm.L
+    100086: UpperArm.L_end
+    100088: UpperArm.R
+    100090: UpperArm.R_end
+    100092: UpperEar.L
+    100094: UpperEar.L_end
+    100096: UpperEar.R
+    100098: UpperEar.R_end
+    100100: UpperLeg.L
+    100102: UpperLeg.R
+    400000: Arm.KI.L
+    400002: Arm.KI.L_end
+    400004: Arm.KI.R
+    400006: Arm.KI.R_end
+    400008: Armature
+    400010: Body
+    400012: Bone
+    400014: Cube.000
+    400016: Ear.KI.L
+    400018: Ear.KI.L_end
+    400020: Ear.KI.R
+    400022: Ear.KI.R_end
+    400024: EarJoint.L
+    400026: EarJoint.L_end
+    400028: EarJoint.R
+    400030: EarJoint.R_end
+    400032: Elbow.L
+    400034: Elbow.L_end
+    400036: Elbow.R
+    400038: Elbow.R_end
+    400040: Foot.L
+    400042: Foot.L_end
+    400044: Foot.R
+    400046: Foot.R_end
+    400048: Fox momchae
+    400050: Head.L
+    400052: Head.L_end
+    400054: Knee.L
+    400056: Knee.L_end
+    400058: Knee.R
+    400060: Knee.R_end
+    400062: Leg.KI.L
+    400064: Leg.KI.R
+    400066: LowerArm.L
+    400068: LowerArm.R
+    400070: LowerEar.L
+    400072: LowerEar.R
+    400074: LowerLeg.L
+    400076: LowerLeg.L_end
+    400078: LowerLeg.R
+    400080: LowerLeg.R_end
+    400082: //RootNode
+    400084: UpperArm.L
+    400086: UpperArm.L_end
+    400088: UpperArm.R
+    400090: UpperArm.R_end
+    400092: UpperEar.L
+    400094: UpperEar.L_end
+    400096: UpperEar.R
+    400098: UpperEar.R_end
+    400100: UpperLeg.L
+    400102: UpperLeg.R
+    2300000: Cube.000
+    3300000: Cube.000
+    4300000: Fox momchae
+    4300002: Cube.000
+    7400000: Armature|ArmatureAction
+    9500000: //RootNode
+    13700000: Fox momchae
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

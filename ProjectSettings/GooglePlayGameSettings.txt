@@ -1,0 +1,10 @@
+lastUpgrade=00936
+proj.pluginVersion=0.9.36
+proj.AppId=484627244329
+and.BundleId=com.CompanyTwentyOne.MiniManiMo
+proj.classDir=Assets
+proj.ConstantsClassName=GPGSIds
+and.ResourceData=%3c%3fxml+version%3d%221.0%22+encoding%3d%22utf-8%22%3f%3e%0d%0a%3c%21--%0d%0aGoogle+Play+game+services+IDs.%0d%0aSave+this+file+as+res%2fvalues%2fgames-ids.xml+in+your+project.%0d%0a--%3e%0d%0a%3cresources%3e%0d%0a++%3cstring+name%3d%22app_id%22%3e484627244329%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22package_name%22%3ecom.CompanyTwentyOne.MiniManiMo%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement__%22%3eCgkIqcqjsI0OEAIQBQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement__%22%3eCgkIqcqjsI0OEAIQBg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement_ddr_%22%3eCgkIqcqjsI0OEAIQBw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement__%22%3eCgkIqcqjsI0OEAIQCA%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22achievement__%22%3eCgkIqcqjsI0OEAIQCQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_ddr_score%22%3eCgkIqcqjsI0OEAIQAQ%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_submerge_score%22%3eCgkIqcqjsI0OEAIQAg%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_snow_score%22%3eCgkIqcqjsI0OEAIQAw%3c%2fstring%3e%0d%0a++%3cstring+name%3d%22leaderboard_total_score%22%3eCgkIqcqjsI0OEAIQBA%3c%2fstring%3e%0d%0a%3c%2fresources%3e
+and.ClientId=484627244329-4t8h68a4kethn5gqr5mjmmcojgqrlsqh.apps.googleusercontent.com
+proj.requireGPlus=false
+android.SetupDone=true

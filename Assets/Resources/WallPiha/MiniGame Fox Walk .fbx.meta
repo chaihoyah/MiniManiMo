@@ -1,0 +1,319 @@
+fileFormatVersion: 2
+guid: bb0220ebbb85e77468ff2c984b640d70
+timeCreated: 1475499338
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Arm.KI.L
+    100002: Arm.KI.L_end
+    100004: Arm.KI.R
+    100006: Arm.KI.R_end
+    100008: Armature
+    100010: Body
+    100012: Bone
+    100014: Camera
+    100016: Ear.KI.L
+    100018: Ear.KI.L_end
+    100020: Ear.KI.R
+    100022: Ear.KI.R_end
+    100024: EarJoint.L
+    100026: EarJoint.L_end
+    100028: EarJoint.R
+    100030: EarJoint.R_end
+    100032: Elbow.L
+    100034: Elbow.L_end
+    100036: Elbow.R
+    100038: Elbow.R_end
+    100040: Foot.L
+    100042: Foot.L_end
+    100044: Foot.R
+    100046: Foot.R_end
+    100048: Fox momchae
+    100050: Head.L
+    100052: Head.L_end
+    100054: Knee.L
+    100056: Knee.L_end
+    100058: Knee.R
+    100060: Knee.R_end
+    100062: Lamp
+    100064: Leg.KI.L
+    100066: Leg.KI.R
+    100068: LowerArm.L
+    100070: LowerArm.R
+    100072: LowerEar.L
+    100074: LowerEar.R
+    100076: LowerLeg.L
+    100078: LowerLeg.L_end
+    100080: LowerLeg.R
+    100082: LowerLeg.R_end
+    100084: //RootNode
+    100086: UpperArm.L
+    100088: UpperArm.L_end
+    100090: UpperArm.R
+    100092: UpperArm.R_end
+    100094: UpperEar.L
+    100096: UpperEar.L_end
+    100098: UpperEar.R
+    100100: UpperEar.R_end
+    100102: UpperLeg.L
+    100104: UpperLeg.R
+    400000: Arm.KI.L
+    400002: Arm.KI.L_end
+    400004: Arm.KI.R
+    400006: Arm.KI.R_end
+    400008: Armature
+    400010: Body
+    400012: Bone
+    400014: Camera
+    400016: Ear.KI.L
+    400018: Ear.KI.L_end
+    400020: Ear.KI.R
+    400022: Ear.KI.R_end
+    400024: EarJoint.L
+    400026: EarJoint.L_end
+    400028: EarJoint.R
+    400030: EarJoint.R_end
+    400032: Elbow.L
+    400034: Elbow.L_end
+    400036: Elbow.R
+    400038: Elbow.R_end
+    400040: Foot.L
+    400042: Foot.L_end
+    400044: Foot.R
+    400046: Foot.R_end
+    400048: Fox momchae
+    400050: Head.L
+    400052: Head.L_end
+    400054: Knee.L
+    400056: Knee.L_end
+    400058: Knee.R
+    400060: Knee.R_end
+    400062: Lamp
+    400064: Leg.KI.L
+    400066: Leg.KI.R
+    400068: LowerArm.L
+    400070: LowerArm.R
+    400072: LowerEar.L
+    400074: LowerEar.R
+    400076: LowerLeg.L
+    400078: LowerLeg.L_end
+    400080: LowerLeg.R
+    400082: LowerLeg.R_end
+    400084: //RootNode
+    400086: UpperArm.L
+    400088: UpperArm.L_end
+    400090: UpperArm.R
+    400092: UpperArm.R_end
+    400094: UpperEar.L
+    400096: UpperEar.L_end
+    400098: UpperEar.R
+    400100: UpperEar.R_end
+    400102: UpperLeg.L
+    400104: UpperLeg.R
+    4300000: Fox momchae
+    7400000: Armature|ArmatureAction.004
+    9500000: //RootNode
+    13700000: Fox momchae
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|ArmatureAction.004
+      takeName: Armature|ArmatureAction.004
+      firstFrame: 8
+      lastFrame: 54
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Arm.KI.L
+        weight: 1
+      - path: Armature/Bone/Arm.KI.L/Arm.KI.L_end
+        weight: 1
+      - path: Armature/Bone/Arm.KI.R
+        weight: 1
+      - path: Armature/Bone/Arm.KI.R/Arm.KI.R_end
+        weight: 1
+      - path: Armature/Bone/Body
+        weight: 1
+      - path: Armature/Bone/Body/Ear.KI.L
+        weight: 1
+      - path: Armature/Bone/Body/Ear.KI.L/Ear.KI.L_end
+        weight: 1
+      - path: Armature/Bone/Body/Ear.KI.R
+        weight: 1
+      - path: Armature/Bone/Body/Ear.KI.R/Ear.KI.R_end
+        weight: 1
+      - path: Armature/Bone/Body/Head.L
+        weight: 1
+      - path: Armature/Bone/Body/Head.L/Head.L_end
+        weight: 1
+      - path: Armature/Bone/Body/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Body/LowerArm.L/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Body/LowerArm.L/UpperArm.L/UpperArm.L_end
+        weight: 1
+      - path: Armature/Bone/Body/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Body/LowerArm.R/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Body/LowerArm.R/UpperArm.R/UpperArm.R_end
+        weight: 1
+      - path: Armature/Bone/Body/LowerEar.L
+        weight: 1
+      - path: Armature/Bone/Body/LowerEar.L/UpperEar.L
+        weight: 1
+      - path: Armature/Bone/Body/LowerEar.L/UpperEar.L/UpperEar.L_end
+        weight: 1
+      - path: Armature/Bone/Body/LowerEar.R
+        weight: 1
+      - path: Armature/Bone/Body/LowerEar.R/UpperEar.R
+        weight: 1
+      - path: Armature/Bone/Body/LowerEar.R/UpperEar.R/UpperEar.R_end
+        weight: 1
+      - path: Armature/Bone/Body/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Body/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Body/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Body/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Body/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Body/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/EarJoint.L
+        weight: 1
+      - path: Armature/Bone/EarJoint.L/EarJoint.L_end
+        weight: 1
+      - path: Armature/Bone/EarJoint.R
+        weight: 1
+      - path: Armature/Bone/EarJoint.R/EarJoint.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Armature/Leg.KI.L
+        weight: 1
+      - path: Armature/Leg.KI.L/Foot.L
+        weight: 1
+      - path: Armature/Leg.KI.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: Armature/Leg.KI.R
+        weight: 1
+      - path: Armature/Leg.KI.R/Foot.R
+        weight: 1
+      - path: Armature/Leg.KI.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: Fox momchae
+        weight: 1
+      - path: Lamp
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

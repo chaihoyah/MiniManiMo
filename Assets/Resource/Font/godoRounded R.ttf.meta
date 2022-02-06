@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 62e4a1678038cec4fbfb9c4af142cb18
+timeCreated: 1493618994
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: godoRounded R
+  fontNames:
+  - godoRounded R
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

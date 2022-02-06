@@ -1,0 +1,42 @@
+fileFormatVersion: 2
+guid: 8cdd65f8ec4cede45857c4b45cf19d1f
+timeCreated: 1486289161
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - BoxOpen: {fileID: 8300000, guid: 3a4d196700148024eb7f658e0895d3a4, type: 3}
+  - BoxResultBad: {fileID: 8300000, guid: 59b3638ab02b5d44c9949d63ad2aa79f, type: 3}
+  - BoxResultGood: {fileID: 8300000, guid: 91343a08a60063941920a714067de15d, type: 3}
+  - Button: {fileID: 8300000, guid: 25ff55f2e74377f4fb1384628596a500, type: 3}
+  - JamsuDie: {fileID: 8300000, guid: 5820d321688e0964aa5a379f5998ca88, type: 3}
+  - Ending: {fileID: 8300000, guid: 645eca57bf1396e4da9f5d10a812d2b4, type: 3}
+  - JamsuMonster: {fileID: 8300000, guid: a154e5624d84a694e9b993512d9676a1, type: 3}
+  - PickGameBoxFloor: {fileID: 8300000, guid: 010a9cf8a95a750459724c00fb32889b, type: 3}
+  - Reborn: {fileID: 8300000, guid: 7aab971ffaaef464f9766635139320eb, type: 3}
+  - StartingSound: {fileID: 8300000, guid: a7f26a5a9d15adb42800cfe52666261a, type: 3}
+  - StoneFloor: {fileID: 8300000, guid: 65007727fabfeda44bff11dc1fdfbb6f, type: 3}
+  - ThrowingStone: {fileID: 8300000, guid: 148871273d1a0874f8dfce89e1c7b6a8, type: 3}
+  - Walk: {instanceID: 0}
+  - WallCollide: {fileID: 8300000, guid: de1f788649bc9a048a1c2684f1a6593b, type: 3}
+  - Wolf: {fileID: 8300000, guid: 52c021a063f1d0b4690d2f488a20aa63, type: 3}
+  - WolfGameDie: {fileID: 8300000, guid: 851a0dd682267514f80a357014276c44, type: 3}
+  - WallBack: {fileID: 8300000, guid: 70fe171f037a0ab40a725160e292822c, type: 3}
+  - PartyTime: {fileID: 8300000, guid: b2123da7a013e5e40ba1d6ed3e9d3caf, type: 3}
+  - Coin: {fileID: 8300000, guid: 0b5e45d2dd4f1204dbad7ef6fe4b620d, type: 3}
+  - StartSound: {fileID: 8300000, guid: 9e97b19c60faa234bb96deacd79f7034, type: 3}
+  - DDRSound: {fileID: 8300000, guid: 384a5658c740bfc43b6980d40a9fc7aa, type: 3}
+  - JamsuSpeedStart: {fileID: 8300000, guid: 2c626aee4b694a24a958929dd174c918, type: 3}
+  - JamsuAlarm: {fileID: 8300000, guid: 2d898d74eb5f0ce4cbd49cd1328ebd03, type: 3}
+  - BHMonsterHit: {fileID: 8300000, guid: 5d0bcf307247d5d4ebecbf822d0fb1ac, type: 3}
+  - BHShot: {fileID: 8300000, guid: 9a7d97e33a9ab704a92e5c7abe6b9b14, type: 3}
+  - BHLightning: {fileID: 8300000, guid: 5f7e2234f5a240b4fbcdf744906d927c, type: 3}
+  - BHWall: {fileID: 8300000, guid: e8794f311aadf7048bf3eed671d3ecae, type: 3}
+  - BHFire: {fileID: 8300000, guid: 9ba8183e842685346a7f7c037d803f15, type: 3}
+  - BHPlayerHit: {fileID: 8300000, guid: c986d55c44790944a8287636e1fce875, type: 3}
+  - myAudio: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

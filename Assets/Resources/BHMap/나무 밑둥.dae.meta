@@ -1,0 +1,190 @@
+fileFormatVersion: 2
+guid: c1424c5c73a97b94dbb110e56fdbb75c
+timeCreated: 1491555658
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: group_0
+    100002: ID100
+    100004: ID106
+    100006: ID112
+    100008: ID118
+    100010: ID124
+    100012: ID130
+    100014: ID136
+    100016: ID14
+    100018: ID22
+    100020: ID28
+    100022: ID34
+    100024: ID40
+    100026: ID46
+    100028: ID52
+    100030: ID58
+    100032: ID64
+    100034: ID70
+    100036: ID76
+    100038: ID82
+    100040: ID88
+    100042: ID94
+    100044: skp_camera_Last_Saved_SketchUp_View
+    100046: //RootNode
+    400000: group_0
+    400002: ID100
+    400004: ID106
+    400006: ID112
+    400008: ID118
+    400010: ID124
+    400012: ID130
+    400014: ID136
+    400016: ID14
+    400018: ID22
+    400020: ID28
+    400022: ID34
+    400024: ID40
+    400026: ID46
+    400028: ID52
+    400030: ID58
+    400032: ID64
+    400034: ID70
+    400036: ID76
+    400038: ID82
+    400040: ID88
+    400042: ID94
+    400044: skp_camera_Last_Saved_SketchUp_View
+    400046: //RootNode
+    2300000: group_0
+    2300002: ID100
+    2300004: ID106
+    2300006: ID112
+    2300008: ID118
+    2300010: ID124
+    2300012: ID130
+    2300014: ID136
+    2300016: ID14
+    2300018: ID22
+    2300020: ID28
+    2300022: ID34
+    2300024: ID40
+    2300026: ID46
+    2300028: ID52
+    2300030: ID58
+    2300032: ID64
+    2300034: ID70
+    2300036: ID76
+    2300038: ID82
+    2300040: ID88
+    2300042: ID94
+    3300000: group_0
+    3300002: ID100
+    3300004: ID106
+    3300006: ID112
+    3300008: ID118
+    3300010: ID124
+    3300012: ID130
+    3300014: ID136
+    3300016: ID14
+    3300018: ID22
+    3300020: ID28
+    3300022: ID34
+    3300024: ID40
+    3300026: ID46
+    3300028: ID52
+    3300030: ID58
+    3300032: ID64
+    3300034: ID70
+    3300036: ID76
+    3300038: ID82
+    3300040: ID88
+    3300042: ID94
+    4300000: group_0
+    4300002: ID14
+    4300004: ID22
+    4300006: ID28
+    4300008: ID34
+    4300010: ID40
+    4300012: ID46
+    4300014: ID52
+    4300016: ID58
+    4300018: ID64
+    4300020: ID70
+    4300022: ID76
+    4300024: ID82
+    4300026: ID88
+    4300028: ID94
+    4300030: ID100
+    4300032: ID106
+    4300034: ID112
+    4300036: ID118
+    4300038: ID124
+    4300040: ID130
+    4300042: ID136
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

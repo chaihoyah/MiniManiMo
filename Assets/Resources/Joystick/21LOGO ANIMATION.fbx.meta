@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: c3003e3b6c63d0345b3a41271cd037d3
+timeCreated: 1484080138
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: Armature.001
+    100006: Armature.002
+    100008: Bone
+    100010: Bone 1
+    100012: Bone 2
+    100014: Bone_end
+    100016: Bone_end 1
+    100018: Bone_end 2
+    100020: Camera
+    100022: Plane
+    100024: Text
+    100026: Text.001
+    100028: Text.002
+    100030: Text.002_MeshPart0
+    100032: Text.002_MeshPart1
+    100034: Text.002_MeshPart2
+    100036: Text.002_MeshPart3
+    100038: Text.002_MeshPart4
+    100040: Text_MeshPart0
+    100042: Text_MeshPart1
+    100044: Text_MeshPart2
+    400000: //RootNode
+    400002: Armature
+    400004: Armature.001
+    400006: Armature.002
+    400008: Bone
+    400010: Bone 1
+    400012: Bone 2
+    400014: Bone_end
+    400016: Bone_end 1
+    400018: Bone_end 2
+    400020: Camera
+    400022: Plane
+    400024: Text
+    400026: Text.001
+    400028: Text.002
+    400030: Text.002_MeshPart0
+    400032: Text.002_MeshPart1
+    400034: Text.002_MeshPart2
+    400036: Text.002_MeshPart3
+    400038: Text.002_MeshPart4
+    400040: Text_MeshPart0
+    400042: Text_MeshPart1
+    400044: Text_MeshPart2
+    2300000: Plane
+    3300000: Plane
+    4300000: Text.002_MeshPart0
+    4300002: Text.002_MeshPart1
+    4300004: Text.002_MeshPart2
+    4300006: Text.002_MeshPart3
+    4300008: Text.002_MeshPart4
+    4300010: Text.001
+    4300012: Text_MeshPart0
+    4300014: Text_MeshPart1
+    4300016: Text_MeshPart2
+    4300018: Plane
+    7400000: Armature.002|Armature.001Action
+    7400002: Armature.002|Armature.001Action.001
+    7400004: Armature.002|Armature.002Action
+    7400006: Armature.002|ArmatureAction
+    7400008: Armature.002|ArmatureAction.001
+    7400010: Armature.001|Armature.001Action
+    7400012: Armature.001|Armature.001Action.001
+    7400014: Armature.001|Armature.002Action
+    7400016: Armature.001|ArmatureAction
+    7400018: Armature.001|ArmatureAction.001
+    7400020: Armature|Armature.001Action
+    7400022: Armature|Armature.001Action.001
+    7400024: Armature|Armature.002Action
+    7400026: Armature|ArmatureAction
+    7400028: Armature|ArmatureAction.001
+    9500000: //RootNode
+    13700000: Text.001
+    13700002: Text.002_MeshPart0
+    13700004: Text.002_MeshPart1
+    13700006: Text.002_MeshPart2
+    13700008: Text.002_MeshPart3
+    13700010: Text.002_MeshPart4
+    13700012: Text_MeshPart0
+    13700014: Text_MeshPart1
+    13700016: Text_MeshPart2
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

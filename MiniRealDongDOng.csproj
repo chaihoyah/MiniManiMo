@@ -1,0 +1,542 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{862FEBB5-A1EC-4298-71FC-B053F81AD37E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.5.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_0;UNITY_5_5;UNITY_5;UNITY_ADS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_ANDROID;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_VIDEO;ENABLE_VR;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlaymodeTestsRunner">
+      <HintPath>Library\UnityAssemblies\UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Analytics">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Analytics.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HoloLens">
+      <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Purchasing">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VR">
+      <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MiniRealDongDOng.Plugins.csproj">
+      <Project>{6EA6F683-0DAF-F781-2FCE-B770583D82D7}</Project>
+      <Name>MiniRealDongDOng.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Charecter\FireOBControl.cs" />
+    <Compile Include="Assets\Charecter\LiOBCollide.cs" />
+    <Compile Include="Assets\DownloadObbExample.cs" />
+    <Compile Include="Assets\FrameDefJam.cs" />
+    <Compile Include="Assets\GPGSIds.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdFailedToLoadEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdLoader.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdPosition.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdRequest.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\AdSize.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\BannerView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeEventArgs.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\CustomNativeTemplateAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Gender.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchase.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\ICustomInAppPurchaseProcessor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\IDefaultInAppPurchaseProcessor.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\IInAppPurchaseResult.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\InterstitialAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\NativeExpressAdView.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\Reward.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Api\RewardBasedVideoAd.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\DummyClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IAdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IBannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\ICustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IInterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\INativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\IRewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Common\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\AdLoaderClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\BannerClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomInAppPurchaseListener.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\CustomNativeTemplateClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\DefaultInAppPurchaseListener.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchase.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InAppPurchaseResult.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\InterstitialClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\NativeExpressAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\RewardBasedVideoAdClient.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\Android\Utils.cs" />
+    <Compile Include="Assets\GoogleMobileAds\Platforms\GoogleMobileAdsClientFactory.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Achievement.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\CommonStatusCodes.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\CommonTypes.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\DummyClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEvent.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Events\IEventsClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\IPlayGamesClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\LeaderboardScoreData.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\IRealTimeMultiplayerClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\ITurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\Invitation.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\MatchOutcome.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\Participant.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\Player.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\RealTimeMultiplayerListener.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Multiplayer\TurnBasedMatch.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\AdvertisingResult.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\ConnectionRequest.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\ConnectionResponse.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\DummyNearbyConnectionClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\EndpointDetails.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\INearbyConnectionClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Nearby\NearbyConnectionConfiguration.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\PlayGamesClientConfiguration.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\PlayerStats.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Quests\IQuest.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Quests\IQuestMilestone.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\Quests\IQuestsClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\ISavedGameMetadata.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\SavedGame\SavedGameMetadataUpdate.cs" />
+    <Compile Include="Assets\GooglePlayGames\BasicApi\ScorePageToken.cs" />
+    <Compile Include="Assets\GooglePlayGames\GameInfo.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesAchievement.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLeaderboard.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesLocalUser.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesPlatform.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesScore.cs" />
+    <Compile Include="Assets\GooglePlayGames\ISocialPlatform\PlayGamesUserProfile.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\Logger.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\Misc.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\PlatformUtils.cs" />
+    <Compile Include="Assets\GooglePlayGames\OurUtils\PlayGamesHelperObject.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\AndroidTokenClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Developers\JavaInterfaceProxy.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Developers\JavaObjWrapper.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\GoogleApiClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\PendingResult.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\Result.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\ResultCallback.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\ResultCallbackProxy.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\Api\Status.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Common\ConnectionResult.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Games.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\LoadPlayerStatsResultObject.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\PlayerStats.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\PlayerStatsObject.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\Stats.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Android\Gms\Games\Stats\StatsObject.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\IClientImpl.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\IOS\IOSClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\IOS\IOSTokenClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\CallbackUtils.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\ConversionUtils.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Achievement.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\AchievementManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\AndroidPlatformConfiguration.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Builder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\CommonErrorStatus.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\EndpointDiscoveryListenerHelper.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Event.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\EventManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\GameServices.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\InternalHooks.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\IosPlatformConfiguration.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Leaderboard.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\LeaderboardManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\MessageListenerHelper.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\MultiplayerInvitation.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\MultiplayerParticipant.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnectionTypes.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnections.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnectionsBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\NearbyConnectionsStatus.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\ParticipantResults.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Player.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\PlayerManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\PlayerStats.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Quest.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\QuestManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\QuestMilestone.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeEventListenerHelper.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeMultiplayerManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeRoom.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeRoomConfig.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\RealTimeRoomConfigBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Score.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\ScorePage.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\ScoreSummary.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Sentinels.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotMetadata.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotMetadataChange.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SnapshotMetadataChangeBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\StatsManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Status.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\SymbolLocation.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMatch.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMatchConfig.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMatchConfigBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\TurnBasedMultiplayerManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\Cwrapper\Types.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\JavaUtils.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeEventClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeNearbyConnectionClientFactory.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeNearbyConnectionsClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeQuestClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeRealtimeMultiplayerClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeSavedGameClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\NativeTurnBasedMultiplayerClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\AchievementManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\AndroidPlatformConfiguration.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\BaseReferenceHolder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\Callbacks.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\EventManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\GameServices.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\GameServicesBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\IosPlatformConfiguration.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\LeaderboardManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\MultiplayerInvitation.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\MultiplayerParticipant.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeAchievement.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeAppIdentifier.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeConnectionRequest.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeConnectionResponse.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeEndpointDetails.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeEndpointDiscoveryListenerHelper.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeEvent.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeLeaderboard.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeMessageListenerHelper.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativePlayer.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativePlayerStats.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeQuest.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeQuestMilestone.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeRealTimeRoom.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScore.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScoreEntry.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScorePage.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScorePageToken.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeScoreSummary.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeSnapshotMetadata.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeSnapshotMetadataChange.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeStartAdvertisingResult.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NativeTurnBasedMatch.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NearbyConnectionsManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\NearbyConnectionsManagerBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PInvokeUtilities.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\ParticipantResults.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PlatformConfiguration.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PlayerManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\PlayerSelectUIResponse.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\QuestManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealTimeEventListenerHelper.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealtimeManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealtimeRoomConfig.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\RealtimeRoomConfigBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\SnapshotManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\StatsManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedManager.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedMatchConfig.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\PInvoke\TurnBasedMatchConfigBuilder.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\Native\UnsupportedSavedGamesClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\NearbyConnectionClientFactory.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\PlayGamesClientFactory.cs" />
+    <Compile Include="Assets\GooglePlayGames\Platforms\TokenClient.cs" />
+    <Compile Include="Assets\GooglePlayGames\PluginVersion.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Resources\Joystick\TOAnimYo.cs" />
+    <Compile Include="Assets\Script\AdsScript\AdmobScript.cs" />
+    <Compile Include="Assets\Script\AdsScript\JebbyControl.cs" />
+    <Compile Include="Assets\Script\AdsScript\JebbyLimit.cs" />
+    <Compile Include="Assets\Script\AdsScript\UnityAdsHelper.cs" />
+    <Compile Include="Assets\Script\AdsScript\UnityAdsManager_Jebby.cs" />
+    <Compile Include="Assets\Script\BackgroundSound.cs" />
+    <Compile Include="Assets\Script\CoolTimeButton1.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\AirScript.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\CoinDisappearJam.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\CoinDisappearJamGold.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\DDang.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\DDangAir.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\DDangCoin.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\DDangGlo.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\DDangSpeedMon.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\DDangSpeedMonMove.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\JamSoo_Tutorial.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\JamSuItem.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\JamsuCoinEffect.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\LeftButton.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\LeftTouchMove.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\MonColLeft.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\MonColRight.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\MonsterRes.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\GameFinish_NewGame_Jamsu.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MoneyImagePosition.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterMove.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterMove_1.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterMove_2.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterMove_Shark.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterResMangShark.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterRespawn.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterRespawn_2.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\MonsterSharkMove.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\NewGame_PandaMove.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\NewJam_Tuto.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\NewJamsuMoney.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\NewJamsuPetOne.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\NewJamsuPetTwo.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\TimeText.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\VirtualJoystick_NewGame.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\New Game\VisionMove_Button.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\PandaDown.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\Pet\DDangPetOne.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\Pet\DDangPetTwo.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\Ranking.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\RightButton.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\RightTouchMove.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\RoundController_Jamsu.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\ScorePop_Jam.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\SpurtMove.cs" />
+    <Compile Include="Assets\Script\DDangPaggiScript\StartScript.cs" />
+    <Compile Include="Assets\Script\DaligiScript\BGMove.cs" />
+    <Compile Include="Assets\Script\DaligiScript\BGMoveSnow.cs" />
+    <Compile Include="Assets\Script\DaligiScript\CamaraMove.cs" />
+    <Compile Include="Assets\Script\DaligiScript\CoolTimeButton.cs" />
+    <Compile Include="Assets\Script\DaligiScript\DaliCoinC.cs" />
+    <Compile Include="Assets\Script\DaligiScript\DaliGiGlo.cs" />
+    <Compile Include="Assets\Script\DaligiScript\GetReady.cs" />
+    <Compile Include="Assets\Script\DaligiScript\RunLeft.cs" />
+    <Compile Include="Assets\Script\DaligiScript\RunRight.cs" />
+    <Compile Include="Assets\Script\DaligiScript\StageSelect.cs" />
+    <Compile Include="Assets\Script\DaligiScript\TimeString.cs" />
+    <Compile Include="Assets\Script\DaligiScript\TrackMove.cs" />
+    <Compile Include="Assets\Script\FrameDef.cs" />
+    <Compile Include="Assets\Script\GlobalPoint.cs" />
+    <Compile Include="Assets\Script\LoadingSceneScript.cs" />
+    <Compile Include="Assets\Script\Local\Local\CreateLocal.cs" />
+    <Compile Include="Assets\Script\Local\Local\GameLockOff.cs" />
+    <Compile Include="Assets\Script\Local\Local\Item.cs" />
+    <Compile Include="Assets\Script\Local\Local\NewShopScript.cs" />
+    <Compile Include="Assets\Script\Local\Local\ShopButton_Clicked.cs" />
+    <Compile Include="Assets\Script\Login\GameController.cs" />
+    <Compile Include="Assets\Script\Login\MiniJSON.cs" />
+    <Compile Include="Assets\Script\Login\RankingSet.cs" />
+    <Compile Include="Assets\Script\Maze\Character.cs" />
+    <Compile Include="Assets\Script\Maze\CoinMaze.cs" />
+    <Compile Include="Assets\Script\Maze\Finish.cs" />
+    <Compile Include="Assets\Script\Maze\Map.cs" />
+    <Compile Include="Assets\Script\Maze\MazeFloorText.cs" />
+    <Compile Include="Assets\Script\Maze\MazePoint.cs" />
+    <Compile Include="Assets\Script\Maze\MazePotalCamera.cs" />
+    <Compile Include="Assets\Script\Maze\MazePotalOne.cs" />
+    <Compile Include="Assets\Script\Maze\MazePotalTwo.cs" />
+    <Compile Include="Assets\Script\Maze\Maze_Tuto.cs" />
+    <Compile Include="Assets\Script\Maze\PlayerMoveMaze.cs" />
+    <Compile Include="Assets\Script\Maze\Roundclear.cs" />
+    <Compile Include="Assets\Script\Maze\SightLeftMoving.cs" />
+    <Compile Include="Assets\Script\Maze\SightRightMoving.cs" />
+    <Compile Include="Assets\Script\Maze\StageScript.cs" />
+    <Compile Include="Assets\Script\Maze\TimeMaze.cs" />
+    <Compile Include="Assets\Script\Maze\TreasureBox.cs" />
+    <Compile Include="Assets\Script\Maze\TreasureOpen.cs" />
+    <Compile Include="Assets\Script\PauseButton.cs" />
+    <Compile Include="Assets\Script\Rank\ListItem.cs" />
+    <Compile Include="Assets\Script\Rank\ListItemData.cs" />
+    <Compile Include="Assets\Script\Rank\ListItemPPa.cs" />
+    <Compile Include="Assets\Script\Rank\RankOpen.cs" />
+    <Compile Include="Assets\Script\Rank\RankingScript.cs" />
+    <Compile Include="Assets\Script\RebornScript.cs" />
+    <Compile Include="Assets\Script\Tutorial\DDRTutorial.cs" />
+    <Compile Include="Assets\Script\Tutorial\RunTutorial.cs" />
+    <Compile Include="Assets\Script\VolumeControlScript.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\BulWallMov.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\BulWallMov1.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\BulWallMov2.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\BulWallMov3.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\BulWallMov4.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CenterButton.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinEffect.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinImageDisappear.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinMove.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinPet.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinPetEffect.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinRespawn.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinRespawn2.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\CoinRotate.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\DDArrowRes.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\DDRPet.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\EnptyCollider.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\Inventory_DDR.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\LeftDownButton.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\LeftUpButton.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\ObjectNumber.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\ObjectPooling.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\Pet\AttackPetScript.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\Pet\Bullet.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\PizzaColid.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\PizzaColid1.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\PizzaColid2.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\PizzaColid3.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\PizzaColid4.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\PlayerCollids.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\RandomPizzaCol.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\RandomPizzaScore.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\RightDownButton.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\RightUpButton.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\RoundController_DDR.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\ScorePop_Wall.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\Wall.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\WallCount.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\WallMove.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\WallMove1.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\WallMove2.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\WallMove3.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\WallMove4.cs" />
+    <Compile Include="Assets\Script\WallpihagiScript\WallpihagiSpurt.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\ArrowBalance.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\ArrowScript.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHBackBullet.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHBombCol.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHBombShot.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHBullet.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHBulletControl.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHCoinEffect.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHMachineGun.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHPlayerMove.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHTreaOpen.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHTreasureRes.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BHWall.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\BH_Tuto.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\CoinDisappearBHGold.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\CoinDisappearWolf.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\DolPotion.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\FireNumText.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\FireWolfDelete.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\GoldWolfRespawn.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\GoldWolfScript.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\IceNumText.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\Inventory_Wolf.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\LightNumText.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\PandaDie.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\RoundController_Snow.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\ScoreScript.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\VirtualJoystick.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\WolfGameRound.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\WolfGetReady.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\WolfRespawn.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\WolfScript.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BH\coinScript.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\BirdGun.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\Chaser.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\DolType\FireBallScript.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\DolType\FloorCollide.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\DolType\IceDol.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\NewInven_WOlf.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\PandaMove.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\WolfObjectPool.cs" />
+    <Compile Include="Assets\Script\WolfGameScript\eEndMov.cs" />
+    <Compile Include="Assets\Script\XML_Script\AdditionOfFunction_Shop.cs" />
+    <Compile Include="Assets\Script\XML_Script\BackKeyScript.cs" />
+    <Compile Include="Assets\Script\XML_Script\BeamProjectScript.cs" />
+    <Compile Include="Assets\Script\XML_Script\InformationScript.cs" />
+    <Compile Include="Assets\Script\XML_Script\JudgeScript.cs" />
+    <Compile Include="Assets\Script\XML_Script\LogoMovie.cs" />
+    <Compile Include="Assets\Script\XML_Script\OpenMenuScript.cs" />
+    <Compile Include="Assets\Script\XML_Script\ScrollSnapRect.cs" />
+    <Compile Include="Assets\Script\XML_Script\ShopScrollScript.cs" />
+    <Compile Include="Assets\Script\XML_Script\UIButton_Clicked.cs" />
+    <Compile Include="Assets\Script\backScript.cs" />
+    <Compile Include="Assets\Script\%EB%BD%91%EA%B8%B0\BarMove.cs" />
+    <Compile Include="Assets\Script\%EB%BD%91%EA%B8%B0\PickButtonPress.cs" />
+    <Compile Include="Assets\Script\%EB%BD%91%EA%B8%B0\PickGameTutorial.cs" />
+    <Compile Include="Assets\Script\%EB%BD%91%EA%B8%B0\PickTutorial.cs" />
+    <Compile Include="Assets\Script\%EB%BD%91%EA%B8%B0\RandomItem.cs" />
+    <Compile Include="Assets\Script\%EB%BD%91%EA%B8%B0\ResultPanelOff.cs" />
+    <Compile Include="Assets\Script\%EB%BD%91%EA%B8%B0\StartButton.cs" />
+    <Compile Include="Assets\Sound\SoundManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\GooglePlayGames\Editor\template-AndroidManifest.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\template-Constants.txt" />
+    <None Include="Assets\GooglePlayGames\Editor\template-GameInfo.txt" />
+    <None Include="Assets\PlayServicesResolver\Editor\play-services-resolver.txt" />
+    <None Include="Assets\Plugins\Android\GoogleMobileAdsPlugin\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\MainLibProj\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\AndroidManifest.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\build.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\layout-v11\status_bar_ongoing_event_progress_bar.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\layout\main.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\layout\status_bar_ongoing_event_progress_bar.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\values-v11\styles.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\values-v9\styles.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\values\main-strings.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\values\strings.xml" />
+    <None Include="Assets\Plugins\Android\UnityOBBDownloader\res\values\styles.xml" />
+    <None Include="Assets\README.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+</Project>

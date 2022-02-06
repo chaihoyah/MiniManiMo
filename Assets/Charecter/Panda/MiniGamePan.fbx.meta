@@ -1,0 +1,139 @@
+fileFormatVersion: 2
+guid: ea4abd37580a2ea448b1cb00429a5890
+timeCreated: 1475665965
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Armature.002
+    100004: Bone
+    100006: Bone 1
+    100008: Bone.001
+    100010: Bone.002
+    100012: Bone.002_end
+    100014: Bone.003
+    100016: Bone.003_end
+    100018: Bone.004
+    100020: Bone.004_end
+    100022: Bone.005
+    100024: Bone.005_end
+    100026: Bone.006
+    100028: Bone.006_end
+    100030: Bone.007
+    100032: Bone.007_end
+    100034: Bone_end
+    100036: Camera
+    100038: Cube
+    100040: Field
+    100042: Hellmet
+    100044: Lamp
+    100046: //RootNode
+    100048: Moolbangwool
+    400000: Armature
+    400002: Armature.002
+    400004: Bone
+    400006: Bone 1
+    400008: Bone.001
+    400010: Bone.002
+    400012: Bone.002_end
+    400014: Bone.003
+    400016: Bone.003_end
+    400018: Bone.004
+    400020: Bone.004_end
+    400022: Bone.005
+    400024: Bone.005_end
+    400026: Bone.006
+    400028: Bone.006_end
+    400030: Bone.007
+    400032: Bone.007_end
+    400034: Bone_end
+    400036: Camera
+    400038: Cube
+    400040: Field
+    400042: Hellmet
+    400044: Lamp
+    400046: //RootNode
+    400048: Moolbangwool
+    2300000: Moolbangwool
+    3300000: Moolbangwool
+    4300000: Hellmet
+    4300002: Moolbangwool
+    4300004: Cube
+    7400000: Armature|ArmatureAction
+    7400002: Armature|CameraAction
+    7400004: Camera|CameraAction
+    7400006: Armature.002|Armature.002Action
+    7400008: Armature.002|ArmatureAction
+    7400010: Armature.002|CameraAction
+    9500000: //RootNode
+    13700000: Cube
+    13700002: Hellmet
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 2
+    tangentImportMode: 2
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
